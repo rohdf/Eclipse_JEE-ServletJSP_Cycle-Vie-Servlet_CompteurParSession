@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>
+        </description>
+    <display-name>SimpleCompteur</display-name>
+    <servlet-name>SimpleCompteur</servlet-name>
+    <servlet-class>controller.SimpleCompteur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleCompteur</servlet-name>
+    <url-pattern>/SimpleCompteur</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>
+        </description>
+    <display-name>SessionCompteur</display-name>
+    <servlet-name>SessionCompteur</servlet-name>
+    <servlet-class>controller.SessionCompteur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionCompteur</servlet-name>
+    <url-pattern>/SessionCompteur</url-pattern>
+  </servlet-mapping>
+</web-app>
